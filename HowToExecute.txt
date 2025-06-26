@@ -1,0 +1,7 @@
+cd backend
+python backend/app.py AND
+python backend/tests/test_frontend_ui.py
+
+cd frontend
+python -m http.server 5500
+
